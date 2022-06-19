@@ -17,11 +17,7 @@ public class LevelChanger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Jump"))
-        {
-            SceneManager.LoadScene(levelToLoad);
-            Debug.Log("CARREGOU NOVO NÍVEL");
-        }
+
     }
 
     //dispara o FaadeOut

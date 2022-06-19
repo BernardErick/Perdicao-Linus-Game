@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,11 +12,20 @@ public class PlayerController : MonoBehaviour
     public bool invulnerable;
     public Animator animator;
     public int dialogs;
+    public Text CanvasText;
+
     void Start()
     {
-        
+        StartCoroutine(FraseInicial());
     }
-
+    private IEnumerator FraseInicial() {
+        yield return new WaitForSeconds(0.5f);
+        this.CanvasText.text = "Você não sairá tão fácil hoje Linus.";
+        yield return new WaitForSeconds(2.5f);
+        this.CanvasText.text = "Sou parte de você agora.";
+        yield return new WaitForSeconds(2.0f);
+        this.CanvasText.text = "";
+    }
     // Update is called once per frame
     void Update()
     {
