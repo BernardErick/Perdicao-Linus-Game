@@ -5,10 +5,22 @@ using UnityEngine.Rendering.Universal;
 
 public class pipelinemode : MonoBehaviour
 {
-    public UniversalRenderPipelineAsset urp;
+    public UniversalRenderPipelineAsset[] qualityLevels;
     void Start()
     {
-        Debug.Log("Padrão:"+ urp.scriptableRenderer.ToString());
+       
+    }
+    void Update()
+    {
+        
+
     }
 
+    public void changeUrp()
+    {
+        QualitySettings.SetQualityLevel(1);
+        QualitySettings.renderPipeline = qualityLevels[1];
+
+
+    }
 }
