@@ -30,7 +30,8 @@ public class LevelChanger : MonoBehaviour
     //carrega novo level quando FadeToLevel terminar
     public void OnFadeComplete()
     {
-        //SceneManager.LoadScene(levelToLoad);
+        Cursor.visible = true;
+        SceneManager.LoadScene("falamansa");
         
     }
 }
