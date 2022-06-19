@@ -42,7 +42,7 @@ public class CharController : MonoBehaviour
         }
         else
         {
-            Debug.Log(playerPosition.position);
+           // Debug.Log(playerPosition.position);
 
             if (characterController.isGrounded)
             {

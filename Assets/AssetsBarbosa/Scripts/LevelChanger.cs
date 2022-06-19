@@ -7,7 +7,7 @@ public class LevelChanger : MonoBehaviour
 {
     public Animator animator;
 
-    private int levelToLoad;
+    public int levelToLoad;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +17,11 @@ public class LevelChanger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (Input.GetMouseButtonDown(1))
+        if (Input.GetButton("Jump"))
         {
-            FadeToLevel(1);
-        }*/
+            SceneManager.LoadScene(levelToLoad);
+            Debug.Log("CARREGOU NOVO NÍVEL");
+        }
     }
 
     //dispara o FaadeOut
@@ -34,6 +35,6 @@ public class LevelChanger : MonoBehaviour
     public void OnFadeComplete()
     {
         //SceneManager.LoadScene(levelToLoad);
-        Debug.Log("CARREGOU NOVO NÍVEL");
+        
     }
 }

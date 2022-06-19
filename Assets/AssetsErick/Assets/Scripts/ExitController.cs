@@ -22,7 +22,7 @@ public class ExitController : MonoBehaviour
             int dialogs = this.player.GetComponent<PlayerController>().dialogs;
             if (dialogs >= 5)
             {
-                SceneManager.LoadScene("End");
+                SceneManager.LoadScene("Dissociation");
             }
             else {
                 Debug.Log("Você não pode concluir a fase, restam "+ (5 - dialogs) + " dialogos.");
