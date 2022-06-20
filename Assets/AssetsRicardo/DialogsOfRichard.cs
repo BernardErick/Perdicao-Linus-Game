@@ -76,7 +76,7 @@ public class DialogsOfRichard : MonoBehaviour
             canvas_text.text = "Luca apresenta Linus a um profissional. Buscar ajuda é um passo na direção certa, mas também é o começo de um novo desafio para Linus...";
             canvas_first_text.text = "";
             canvas_second_text.text = "";
-            StartCoroutine(ChangeLevel("Map", 3.0f));
+            StartCoroutine(ChangeLevel("Platform", 3.0f));
         }
 
     }

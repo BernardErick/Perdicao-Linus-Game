@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/AssetsRicardo/Scenes/falamansa.unity
     guid: b57c0a3bce0ccf14f88128a5a416a184
+  - enabled: 1
+    path: Assets/AssetsYago/Scenes/Ending.unity
+    guid: 3b3078bb6da2b602480f9fecc5601c4d
+  - enabled: 1
+    path: Assets/AssetsYago/Scenes/Platform.unity
+    guid: ae3ce8843cf9925429797b8c3f55e17a
   m_configObjects: {}
