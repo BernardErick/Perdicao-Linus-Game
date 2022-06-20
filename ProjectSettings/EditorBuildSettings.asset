@@ -9,17 +9,11 @@ EditorBuildSettings:
     path: Assets/AssetsErick/Assets/Scenes/Introduction.unity
     guid: 9b092e73ca9b487488534d7651483142
   - enabled: 1
-    path: Assets/AssetsErick/Assets/Scenes/End.unity
-    guid: 1369b5d7bc427194f81c1e64a07493af
-  - enabled: 1
     path: Assets/AssetsErick/Assets/Scenes/GameOver.unity
     guid: c31a70646965e7542a7231f472c8f34b
   - enabled: 1
     path: Assets/AssetsErick/Assets/Scenes/Map.unity
     guid: dbb2bd0c1a6970d46bd8716f373e0ba4
-  - enabled: 1
-    path: Assets/AssetsErick/Assets/Scenes/Testing.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/AssetsBarbosa/Scenes/Dissociation.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
@@ -27,9 +21,9 @@ EditorBuildSettings:
     path: Assets/AssetsRicardo/Scenes/falamansa.unity
     guid: b57c0a3bce0ccf14f88128a5a416a184
   - enabled: 1
-    path: Assets/AssetsYago/Scenes/Ending.unity
-    guid: 3b3078bb6da2b602480f9fecc5601c4d
-  - enabled: 1
     path: Assets/AssetsYago/Scenes/Platform.unity
     guid: ae3ce8843cf9925429797b8c3f55e17a
+  - enabled: 1
+    path: Assets/AssetsYago/Scenes/Ending.unity
+    guid: 3b3078bb6da2b602480f9fecc5601c4d
   m_configObjects: {}
